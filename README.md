@@ -1,43 +1,27 @@
-Loja de Roupas Online
-Descrição do Projeto
-Este projeto é uma aplicação web de uma loja de roupas online construída utilizando o framework Angular. A aplicação permite que os usuários naveguem por produtos, adicionem itens ao carrinho de compras e finalizem a compra. O backend simulado é gerado utilizando o json-server, permitindo a manipulação de dados como produtos e carrinho.
+# Loja de Roupas Online
 
-Instruções para Executar a Aplicação
-Pré-requisitos
-Node.js e npm instalados.
-Angular CLI instalado globalmente:
-bash
-Copiar código
-npm install -g @angular/cli
+## Descrição do Projeto
+
+Este projeto é uma aplicação web de uma loja de roupas online construída utilizando o framework Angular. A aplicação permite que os usuários naveguem por produtos, adicionem itens ao carrinho de compras e finalizem a compra. O backend simulado é gerado utilizando o `json-server`, permitindo a manipulação de dados como produtos e carrinho.
+
+## Instruções para Executar a Aplicação
+
+### Pré-requisitos
+
+- **Node.js** e **npm** instalados.
+- **Angular CLI** instalado globalmente:
+  ```bash
+  npm install -g @angular/cli
 json-server instalado globalmente:
-bash
-Copiar código
 npm install -g json-server
+
 Como Rodar a Aplicação
 Clone o Repositório:
 
-bash
-Copiar código
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
 Instale as Dependências: Execute o seguinte comando na raiz do projeto para instalar todas as dependências necessárias:
 
-bash
-Copiar código
-npm install
 Inicie o Servidor de API Simulado: O projeto utiliza o json-server para simular um backend. Para rodar o servidor, execute o seguinte comando na raiz do projeto:
-
-bash
-Copiar código
-json-server db.json
-Isso iniciará o servidor na URL http://localhost:3000.
-
-Inicie o Servidor de Desenvolvimento do Angular: Para rodar a aplicação Angular, use o seguinte comando:
-
-bash
-Copiar código
-ng serve
-A aplicação será servida em http://localhost:4200. Navegue até essa URL para ver a aplicação em funcionamento.
+Inicie o Servidor de Desenvolvimento do Angular
 
 Funcionalidades Principais:
 Visualizar Produtos: Os usuários podem ver uma lista de produtos disponíveis.
