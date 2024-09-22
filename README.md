@@ -1,27 +1,57 @@
-# LojaGuitarras
+Loja de Roupas Online
+Descrição do Projeto
+Este projeto é uma aplicação web de uma loja de roupas online construída utilizando o framework Angular. A aplicação permite que os usuários naveguem por produtos, adicionem itens ao carrinho de compras e finalizem a compra. O backend simulado é gerado utilizando o json-server, permitindo a manipulação de dados como produtos e carrinho.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+Instruções para Executar a Aplicação
+Pré-requisitos
+Node.js e npm instalados.
+Angular CLI instalado globalmente:
+bash
+Copiar código
+npm install -g @angular/cli
+json-server instalado globalmente:
+bash
+Copiar código
+npm install -g json-server
+Como Rodar a Aplicação
+Clone o Repositório:
 
-## Development server
+bash
+Copiar código
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+Instale as Dependências: Execute o seguinte comando na raiz do projeto para instalar todas as dependências necessárias:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+bash
+Copiar código
+npm install
+Inicie o Servidor de API Simulado: O projeto utiliza o json-server para simular um backend. Para rodar o servidor, execute o seguinte comando na raiz do projeto:
 
-## Code scaffolding
+bash
+Copiar código
+json-server db.json
+Isso iniciará o servidor na URL http://localhost:3000.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Inicie o Servidor de Desenvolvimento do Angular: Para rodar a aplicação Angular, use o seguinte comando:
 
-## Build
+bash
+Copiar código
+ng serve
+A aplicação será servida em http://localhost:4200. Navegue até essa URL para ver a aplicação em funcionamento.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Funcionalidades Principais:
+Visualizar Produtos: Os usuários podem ver uma lista de produtos disponíveis.
+Adicionar ao Carrinho: Produtos podem ser adicionados ao carrinho de compras.
+Finalizar Compra: A funcionalidade de finalizar compra está disponível para os itens no carrinho.
+Tecnologias Utilizadas
+Angular: Framework para construção da interface e da lógica da aplicação.
+Angular Material: Biblioteca de componentes visuais para melhorar a aparência e usabilidade da aplicação.
+TypeScript: Linguagem principal de desenvolvimento, que traz tipagem estática ao JavaScript.
+json-server: Ferramenta para simular uma API REST e facilitar a troca de dados durante o desenvolvimento.
+Possíveis Melhorias Futuras
+Autenticação de Usuários: Implementação de login e registro para personalizar a experiência do usuário.
+Melhoria da UI/UX: Design responsivo aprimorado e melhorias visuais adicionais para a loja.
+Integração com API Real: Conectar a aplicação com um backend real para gerenciar produtos e compras.
+Métodos de Pagamento: Implementação de integração com serviços de pagamento como PayPal ou Stripe.
+Busca Avançada de Produtos: Permitir aos usuários filtrar e pesquisar produtos com base em categorias e preço.
+Histórico de Compras: Exibir histórico de pedidos para usuários logados.
