@@ -1,0 +1,20 @@
+<div class="guitar-container">
+    <div class="guitar-card" *ngFor="let guitar of guitars" style="border: 1px solid #ffffff; padding: 16px; margin-bottom: 16px; width: 300px;">
+      
+      <!-- Exibe a imagem da guitarra -->
+      <img src="C:\Users\arthu\loja-guitarras\src\assets\images\guitar.jpeg" alt="guitar.name" style="width: 100%; height: auto;">
+
+  
+      <!-- Exibe o nome da guitarra -->
+      <h2>{{ guitar.name }}</h2>
+    
+      <!-- Exibe o preço da guitarra -->
+      <p>Preço: {{ guitar.price | currency:'BRL':'symbol':'1.2-2' }}</p>
+      
+      <!-- Botão para selecionar a guitarra -->
+      <button (click)="selectGuitar(guitar)" style="padding: 8px 16px; background-color: #28a745; color: white; border: none; cursor: pointer;">
+        Detalhes
+      </button>
+    </div>
+  </div>
+  

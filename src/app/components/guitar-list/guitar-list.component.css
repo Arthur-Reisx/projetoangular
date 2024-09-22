@@ -1,0 +1,53 @@
+.guitar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .guitar-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .guitar-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .guitar-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+    background-image: "C:/Users/arthu/loja-guitarras/src/assets/images/guitar.jpeg";
+  }
+  
+  .guitar-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .guitar-card p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .guitar-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .guitar-card button:hover {
+    background-color: #45a049;
+  }
+  

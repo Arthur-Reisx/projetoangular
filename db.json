@@ -1,0 +1,17 @@
+{
+    "guitars": [
+      {
+        "id": 1,
+        "name": "Fender Stratocaster",
+        "price": 1200,
+        "imageUrl": "https://cdn.awsli.com.br/2500x2500/1005/1005709/produto/222689545bbdb46ea99.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Gibson Les Paul",
+        "price": 1500,
+        "imageUrl": "https://www.royalmusic.com.br/wp-content/uploads/2019/05/10011037-01-1000x564.jpg"
+      }
+    ]
+  }
+  
